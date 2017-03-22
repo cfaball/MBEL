@@ -1,0 +1,39 @@
+<form id="f" name="f" method="GET" action="#">
+								<table>
+							      <caption>
+								      Informations produit
+						          </caption>
+								    <tr>
+								      <th scope="row"><label for="id">ID :</label></th>
+								      <td><input type="number" min="0" max="999" step="1" value="0" name="id" id="id" accesskey="i" tabindex="1" readonly></td>
+							        </tr>
+								    <tr>
+								      <th scope="row"><label for="id_cat">Catégorie :</label></th>
+								      <td><input type="number" min="0" max="10" value="0" name="id_cat" id="id_cat"></td>
+							        </tr>
+								    <tr>
+								      <th scope="row"><label for="name">Nom :</label></th>
+								      <td><input name="nom" type="text" id="nom" size="40" maxlength="50" title="Le nom contient de 2 à 50 caractères" placeholder="nom du produit" pattern="[A-Z][A-Za-zéà' -]{1,49}" required><span></span></td>
+							        </tr>
+								    <tr>
+								      <th scope="row"><label for="desc">Description :</label></th>
+								      <td><textarea name="desc" id="desc" cols="45" rows="5"></textarea></td>
+							        </tr>
+								    <tr>
+								      <th scope="row"><label for="prix">Prix :</label></th>
+								      <td><input type="number" min="0" max="9999.99" step="0.01" name="prix" id="prix"></td>
+							        </tr>
+								    <tr>
+								      <th scope="row">&nbsp;</th>
+								      <td>&nbsp;</td>
+							        </tr>
+								    <tr>
+								      <th colspan="2" scope="row">
+										<input type="submit" name="enregistrer" id="enregistrer" value="Enregistrer" accesskey="v" tabindex="7">
+										<input type="reset" name="raz" id="raz" value="Réinitialiser" accesskey="r" tabindex="8">
+                                        
+										<input type="button" name="delete" id="delete" value="Supprimer" accesskey="s" tabindex="9">
+										<span id="dzAnnuler"></span></th>
+							        </tr>
+							      </table>
+						      </form>

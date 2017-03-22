@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1
+		, "id_cat": 1
+		, "nom": "Pommes de Normandie"
+		, "desc": "Les meilleures pommes du monde !"
+		, "prix": 8.99
+		, "image": "images/produits/pommes.jpg"
+	}
+	,{
+		"id": 2
+		, "id_cat": 1
+		, "nom": "Oranges de Tunsie"
+		, "desc": "Les meilleures oranges du monde !"
+		, "prix": 3.99
+		, "image": "images/produits/oranges.jpg"
+	}
+	,{
+		"id": 4
+		, "id_cat": 3
+		, "nom": "Fer à repasser"
+		, "desc": "Le meilleur fer du monde !"
+		, "prix": 99.99
+		, "image": "images/produits/fer.jpg"
+	}
+]
